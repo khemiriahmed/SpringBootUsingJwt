@@ -10,10 +10,10 @@ public class RegisterDto {
 	@NotEmpty(message = "First name is required")
     private String firstName;
 
-    @NotEmpty(message = "Last name is required")
+    @NotEmpty(message = "Last last is required")
     private String lastName;
     
-    @NotEmpty(message = "Last name is required")
+    @NotEmpty(message = "Last username is required")
     private String username;
 
     @NotEmpty(message = "Email is required")
